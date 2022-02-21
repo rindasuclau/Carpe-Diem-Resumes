@@ -3,5 +3,14 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min";
+import { Provider } from "react-redux";
+import store from "./store/store";
 
-ReactDOM.render(<BrowserRouter><App /></BrowserRouter>, document.getElementById("root"));
+ReactDOM.render(
+  <Provider store={store}>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </Provider>,
+  document.getElementById("root")
+);
