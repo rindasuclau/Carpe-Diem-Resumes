@@ -1,10 +1,10 @@
+import AuthForm from "./components/auth/AuthForm";
+import Card from "./components/UI/Card";
 
 
 function App() {
   return (
-    <div >
-     
-    </div>
+     <AuthForm />
   );
 }
 

@@ -1,0 +1,102 @@
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container form {
+  margin-top: 10rem;
+  width: 35%;
+  background-color: antiquewhite;
+  border-radius: 8px;
+  padding: 2rem;
+  border: 1px solid purple
+}
+
+.forgot-password {
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  color: purple;
+}
+
+.forgot-password:hover,
+.forgot-password:active {
+  color: rgb(212, 4, 212);
+  cursor: pointer;
+}
+
+.holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.holder p {
+  font-size: 0.8rem;
+}
+
+.holder b {
+  color: purple;
+  cursor: pointer;
+}
+
+.holder b:hover {
+  color: rgb(202, 7, 202);
+  cursor: pointer;
+}
+
+.control {
+  margin-top: 1rem;
+}
+
+.control input {
+  padding: 0.5rem 0.2rem;
+  border-radius: 4px;
+  border: 1px solid gray;
+  width: 100%;
+}
+
+.control label {
+  font-weight: bold;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.invalid {
+  border: 1px solid red !important;
+}
+
+.button {
+  padding: 0.75rem 2rem;
+  background-color: purple;
+  border: 1px solid purple;
+  border-radius: 10px;
+  border-color: purple;
+  color: rgb(216, 31, 179);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  padding: 0.75rem 2rem;
+  background-color: rgb(110, 5, 110);
+  border: 1px solid purple;
+  border-radius: 10px;
+  border-color: purple;
+  color: rgb(240, 20, 196);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.error {
+  color: rgb(255, 7, 7);
+}
