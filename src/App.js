@@ -1,10 +1,21 @@
+import { Redirect, Route, Router } from "react-router-dom";
 import AuthForm from "./components/auth/AuthForm";
-import Card from "./components/UI/Card";
-
+import Header from "./components/layout/Header";
 
 function App() {
   return (
-     <AuthForm />
+    <Router>
+      <Header />
+      <Route path="/">
+        <Redirect to="/home" />
+      </Route>
+      <Route path="/login">
+        <AuthForm />
+      </Route>
+      <Route path="*">
+        <Redirect to="/home"/>
+      </Route>
+    </Router>
   );
 }
 

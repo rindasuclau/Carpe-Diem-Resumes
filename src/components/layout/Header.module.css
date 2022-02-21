@@ -1,0 +1,43 @@
+.header {
+  width: 100%;
+  height: 5rem;
+  background-color: antiquewhite;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+    margin-left: 1rem;
+}
+
+.header nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+li {
+    margin-right: 1rem;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid purple;
+    padding: 0.75rem 1.75rem;
+    border-radius: 8px;
+    background-color: purple;
+    color: rgb(240, 20, 196);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+a:hover, a:active {
+    color: rgb(240, 20, 196);
+    background-color: rgb(110, 5, 110);
+}
